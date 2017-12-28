@@ -17,11 +17,8 @@ function accessElementInArray(arr,idx) {
 }
 
 function addElementToEndOfArray(arr,el) {
-  var newArr = arr
-  newArr.push(el)
+  var newArr = [...arr,el]
   return newArr
-
-  //var newArr = [...arr,el]
 }
 
 function destructivelyAddElementToEndOfArray(arr,el) {
