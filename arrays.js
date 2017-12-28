@@ -14,3 +14,7 @@ function destructivelyAddElementToBeginningOfArray(arr, el) {
 function accessElementInArray(arr,idx) {
   return arr[idx]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray() {
+  
+}
