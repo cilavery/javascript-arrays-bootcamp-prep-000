@@ -6,6 +6,7 @@ function addElementToBeginningOfArray(arr, el) {
 }
 
 
+
 function destructivelyAddElementToBeginningOfArray(arr,el) {
   arr.unshift(el)
   return arr
@@ -13,6 +14,19 @@ function destructivelyAddElementToBeginningOfArray(arr,el) {
 
 function accessElementInArray(arr,idx) {
   return arr[idx]
+}
+
+function addElementToEndOfArray(arr,el) {
+  var newArr = arr
+  newArr.push(el)
+  return newArr
+
+  //var newArr = [...arr,el]
+}
+
+function destructivelyAddElementToEndOfArray(arr,el) {
+  arr.push(el)
+  return arr
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(arr) {
